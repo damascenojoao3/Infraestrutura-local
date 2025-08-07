@@ -21,3 +21,4 @@ Receber alertas no Discord via webhook
 Verificação de logs em "/var/log/monitoramento.log"  
 
 # Prints e arquivos
+HTML: ![htmlpng](html.png)
