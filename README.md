@@ -3,21 +3,21 @@ Projeto desenvolvido para simular uma infraestrutura com Nginx e monitoramento c
 
 # Pré-requisitos
 Linux  
-Nginx
-Cron
-Curl
-Bash
-Webhook
+Nginx  
+Cron  
+Curl  
+Bash  
+Webhook  
 
 # Etapas do projeto
-Instalação do Nginx
-Criação da página HTML em "/var/www/html/index.html"
-Script que salva logs e envia um alerta apenas se o site cair
-Cron executando o script a cada minuto
+Instalação do Nginx  
+Criação da página HTML em "/var/www/html/index.html"  
+Script que salva logs e envia um alerta apenas se o site cair  
+Cron executando o script a cada minuto  
 
 # Testes realizados
-Parar e iniciar o serviço do Nginx
-Receber alertas no Discord via webhook
-Verificação de logs em "/var/log/monitoramento.log"
+Parar e iniciar o serviço do Nginx  
+Receber alertas no Discord via webhook  
+Verificação de logs em "/var/log/monitoramento.log"  
 
 # Prints e arquivos
