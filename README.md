@@ -20,7 +20,8 @@ Parar e iniciar o serviço do Nginx
 Receber alertas no Discord via webhook  
 Verificação de logs em "/var/log/monitoramento.log"  
 
-# Prints e arquivos
+# Prints
+  
 Crontab: ![crontabpng](crontab1.png)  
 Script: ![scriptpng](script1.png)  
 Webhook: ![discordpng](discord.png)  
