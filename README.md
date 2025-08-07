@@ -6,7 +6,7 @@ Linux
 Nginx  
 Cron  
 Curl  
-Bash  
+Shell Script  
 Webhook  
 
 # Etapas do projeto
