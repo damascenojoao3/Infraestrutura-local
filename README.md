@@ -10,7 +10,7 @@ Criação da página [HTML](index.html) em
 ```/var/www/html/index.html```    
 Criação de um [Script](monitorar_site.sh) que salva logs e envia um alerta apenas se o site cair  
 Dar permissão de execução ao script:  
-```sudo chmod +x /usr/local/bin/monitorar_site.sh```
+```sudo chmod +x /usr/local/bin/monitorar_site.sh```  
 Cron executando o script a cada minuto  
 Para abrir o cron:  
 ```crontab -e```  
