@@ -23,5 +23,5 @@ Verificação de logs em "/var/log/monitoramento.log"
 # Prints e arquivos
 HTML: ![htmlpng](html1.png)  
 Crontab: ![crontabpng](crontab1.png)  
-Script: ![scriptpng](script.png)  
+Script: ![scriptpng](script1.png)  
 Webhook: ![discordpng](discord.png)  
