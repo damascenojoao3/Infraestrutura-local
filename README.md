@@ -8,8 +8,13 @@ Lista dos Pré-requisitos junto dos guias: [Pré-requisitos](pre_requisitos.md)
 Instalação do Nginx  
 Criação da página [HTML](index.html) em  
 ```/var/www/html/index.html```    
-[Script](monitorar_site.sh) que salva logs e envia um alerta apenas se o site cair  
-Cron executando o script a cada minuto:  
+Criação de um [Script](monitorar_site.sh) que salva logs e envia um alerta apenas se o site cair  
+Dar permissão de execução ao script:  
+```sudo chmod +x /usr/local/bin/monitorar_site.sh```
+Cron executando o script a cada minuto  
+Para abrir o cron:  
+```crontab -e```  
+Na última linha:  
 ```* * * * * * /usr/local/bin/monitorar_site.sh```  
 
 # Testes realizados
