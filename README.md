@@ -24,6 +24,6 @@ Verificação de logs em
 ```/var/log/monitoramento.log```
 # Prints
 Nginx: ![serviconginx1png](servico_nginx1.png)  
-Crontab: ![crontabpng](crontab1.png)  
+Cron: ![crontabpng](crontab1.png)  
 Script: ![scriptpng](script1.png)  
 Webhook: ![discordpng](discord.png)  
