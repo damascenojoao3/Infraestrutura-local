@@ -27,6 +27,8 @@ if [ "$HTTP_CODE" -ne 200 ]; then
          -X POST \
          -d "{\"content\": \"$MENSAGEM\"}" \
          $WEBHOOK_URL
+         # Reinicia o Nginx
+         sudo systemctl restart nginx
 else
     echo "$DATA - OK: Site funcionando normalmente. Código HTTP: $HTTP_CODE" >> $LOG
 fi
