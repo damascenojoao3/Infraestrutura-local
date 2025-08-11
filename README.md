@@ -8,7 +8,7 @@ Lista dos Pré-requisitos junto dos guias: [Pré-requisitos](pre_requisitos.md)
 Instalação do Nginx;  
 Criação da página [HTML](index.html) em  
 ```/var/www/html/index.html```    
-Criação de um [Script](monitorar_site.sh) em ```/usr/local/bin``` que salva logs e envia um alerta apenas se o site cair;  
+Criação de um [Script](monitorar_site.sh) em ```/usr/local/bin``` que salva logs, envia um alerta apenas se o site cair e reinicia o sistema;  
 Dar permissão de execução ao script:  
 ```sudo chmod +x /usr/local/bin/monitorar_site.sh```  
 Cron executando o script a cada minuto;  
@@ -18,7 +18,7 @@ Na última linha:
 ```* * * * * * /usr/local/bin/monitorar_site.sh```  
 
 # Testes realizados
-Parar e iniciar o serviço do Nginx;  
+Parar o serviço do Nginx;  
 Receber alertas no Discord via webhook;  
 Verificação de logs em:  
 ```/var/log/monitoramento.log```
