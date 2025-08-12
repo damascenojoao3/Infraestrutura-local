@@ -2,7 +2,7 @@
 Projeto desenvolvido para simular uma infraestrutura com Nginx e monitoramento com alertas via webhook enviados no Discord. Feito localmente usando Linux (Mint) para o programa de bolsas da Compass UOL na trilha de DevSecOps e AWS.
 
 # Pré-requisitos e guias
-Lista dos Pré-requisitos junto dos guias: [Pré-requisitos](pre_requisitos.md)  
+Lista dos Pré-requisitos junto dos guias: [Pré-requisitos e guias](pre_requisitos.md)  
 
 # Etapas do projeto
 Instalação do Nginx;  
