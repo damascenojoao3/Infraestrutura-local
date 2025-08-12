@@ -15,7 +15,7 @@ Cron executando o script a cada minuto;
 Para abrir o cron:  
 ```crontab -e```  
 Na última linha:  
-```* * * * * * /usr/local/bin/monitorar_site.sh```  
+```* * * * * /usr/local/bin/monitorar_site.sh```  
 
 # Testes realizados
 Parar o serviço do Nginx;  
