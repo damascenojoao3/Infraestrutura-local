@@ -6,7 +6,7 @@ Lista dos Pré-requisitos junto dos guias: [Pré-requisitos e guias](pre_requisi
 
 # Etapas do projeto
 Instalação do Nginx;  
-Criação da página [HTML](index.html) em  
+Criação da página [HTML](index.html) em:  
 ```/var/www/html/index.html```    
 Criação de um [Script](monitorar_site.sh) em ```/usr/local/bin``` que salva logs, envia um alerta apenas se o site cair e reinicia o sistema;  
 Dar permissão de execução ao script:  
