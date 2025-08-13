@@ -5,7 +5,7 @@ Antes de instalar qualquer pacote em Linux, é ideal que veja se não tem nenhum
 Caso tenha algum para ser atualizado:  
 ```sudo apt upgrade```   
 # Nginx:
-Nginx é um servidor web open source que não vem instalado no Linux, para baixar, é necessário o comando:  
+Nginx é um servidor web open source que não vem instalado no Linux. Para baixar, é necessário o comando abaixo (```-y``` para confirmar):  
 ```sudo apt install nginx -y```  
 Também é necessário ligá-lo para ele funcionar, o comando é:  
 ```sudo systemctl start nginx```  
