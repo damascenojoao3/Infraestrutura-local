@@ -6,8 +6,8 @@ URL="http://localhost"
 # Caminho para o log
 LOG="/var/log/monitoramento.log"
 
-# Webhook
-WEBHOOK_URL="https://discord.com/api/webhooks/1402699611478560830/LjB111tSW46VfApobbBR-ehVPLBw30GN98XhtHb1SozTxFU27C-S-sY8gCdKSUHi5Qyb"
+# Webhook (Insira entre as aspas)
+WEBHOOK_URL=""
 
 # Data e hora atual
 DATA=$(/bin/date '+%Y-%m-%d %H:%M:%S')
